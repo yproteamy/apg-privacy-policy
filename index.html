@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - AppPermissionGuardian</title>
+    <style>
+        :root {
+            --bg-color: #f8fafc;
+            --surface-color: #ffffff;
+            --text-primary: #0f172a;
+            --text-secondary: #475569;
+            --border-color: #e2e8f0;
+            --accent-color: #1e3a8a;
+            --accent-soft: #eff6ff;
+            --tag-bg: #f1f5f9;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.65;
+            padding: 24px 16px;
+        }
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            background-color: var(--surface-color);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+        }
+        .lang-switch {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: var(--accent-soft);
+            border: 1px solid #bfdbfe;
+            border-radius: 8px;
+            padding: 12px 18px;
+            margin-bottom: 32px;
+            font-size: 0.95rem;
+        }
+        .lang-switch a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .lang-switch a:hover {
+            text-decoration: underline;
+        }
+        .meta-box {
+            background-color: var(--tag-bg);
+            border-left: 4px solid var(--accent-color);
+            padding: 16px 20px;
+            margin-bottom: 28px;
+            border-radius: 0 8px 8px 0;
+            font-size: 0.95rem;
+        }
+        .meta-box p {
+            margin-bottom: 6px;
+        }
+        .meta-box p:last-child {
+            margin-bottom: 0;
+        }
+        h1 {
+            font-size: 2rem;
+            color: var(--accent-color);
+            margin-bottom: 12px;
+            line-height: 1.25;
+        }
+        h2 {
+            font-size: 1.35rem;
+            color: var(--text-primary);
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 8px;
+            margin-top: 36px;
+            margin-bottom: 16px;
+        }
+        h3 {
+            font-size: 1.1rem;
+            color: var(--text-primary);
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 14px;
+        }
+        ul {
+            color: var(--text-secondary);
+            padding-left: 24px;
+            margin-bottom: 16px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        strong {
+            color: var(--text-primary);
+        }
+        .divider {
+            height: 2px;
+            background-color: var(--border-color);
+            margin: 48px 0;
+        }
+        /* Arabic RTL Styles */
+        .ar-section {
+            direction: rtl;
+            text-align: right;
+            font-family: Tahoma, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+        }
+        .ar-section .meta-box {
+            border-left: none;
+            border-right: 4px solid var(--accent-color);
+            border-radius: 8px 0 0 8px;
+        }
+        .ar-section ul {
+            padding-left: 0;
+            padding-right: 24px;
+        }
+        .contact-notice {
+            background-color: #fef3c7;
+            border: 1px solid #fde68a;
+            color: #92400e;
+            padding: 12px 16px;
+            border-radius: 6px;
+            font-weight: 500;
+            margin-top: 12px;
+        }
+        @media (max-width: 640px) {
+            .container {
+                padding: 20px 16px;
+            }
+            h1 {
+                font-size: 1.6rem;
+            }
+            h2 {
+                font-size: 1.2rem;
+            }
+            .lang-switch {
+                flex-direction: column;
+                gap: 8px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- LANGUAGE SWITCHER -->
+    <div class="lang-switch">
+        <span>Language: English (US)</span>
+        <a href="#arabic-version">الانتقال إلى النسخة العربية (Arabic Version) &darr;</a>
+    </div>
+
+    <!-- ==================== ENGLISH SECTION ==================== -->
+    <section id="english-version">
+        <h1>Privacy Policy</h1>
+        
+        <div class="meta-box">
+            <p><strong>Application Name:</strong> AppPermissionGuardian (APG)</p>
+            <p><strong>Package Name:</strong> com.proteam.permissionguardian</p>
+            <p><strong>Publisher:</strong> ProTeam</p>
+            <p><strong>Release Scope:</strong> Free Basic Edition (Version 1.0.1, Build 101)</p>
+            <p><strong>Commercial Features / In-App Purchases:</strong> Disabled in this release</p>
+            <p><strong>Effective Date:</strong> October 2026</p>
+        </div>
+
+        <p>AppPermissionGuardian ("APG", "the Application", "we") is committed to delivering transparent, verifiable, and uncompromising on-device privacy governance. This Privacy Policy discloses exactly how the Application operates, what information is processed, where data is stored, and our adherence to Google Play policies and user protection principles.</p>
+
+        <h2>1. Local-First Privacy Architecture (State Truth)</h2>
+        <p>AppPermissionGuardian is engineered around the principle of <strong>State Truth</strong>. The Application operates on a local-first paradigm: all permission auditing, privacy risk classification, cryptographic ledger verification, and timeline generation occur directly on your Android device.</p>
+        <p><strong>We do not maintain an external telemetry cloud, tracking infrastructure, or remote databases for app audit results.</strong> Your device's privacy profile remains on your device.</p>
+
+        <h2>2. Installed Application Inventory &amp; QUERY_ALL_PACKAGES</h2>
+        <h3>Purpose &amp; Necessity</h3>
+        <p>The core function of AppPermissionGuardian is to inspect the applications installed on your device to audit declared and granted sensitive permissions (including Camera, Microphone, Precise Location, Contacts, SMS, Call Logs, and Storage), detect unauthorized permission changes ("drift"), and calculate your overall privacy posture.</p>
+        <p>To fulfill this primary purpose, the Application declares the <code>android.permission.QUERY_ALL_PACKAGES</code> permission.</p>
+        <h3>Why Broad Visibility is Required</h3>
+        <p>Under Android 11+ (API level 30+) visibility restrictions, targeted package filtering requires compile-time pre-declaration of package names. Because device owners install thousands of distinct applications from diverse sources, compile-time declarations cannot discover arbitrary user-installed apps. Without comprehensive package inventory visibility, an on-device permission auditor cannot discover security exposures or protect user privacy.</p>
+        <h3>Safeguards</h3>
+        <p>Your installed application list is processed solely in local device memory and local database storage. It is never uploaded, shared, or transmitted off your device.</p>
+
+        <h2>3. Local Network Analysis &amp; Android VpnService</h2>
+        <h3>Purpose &amp; Technical Operation</h3>
+        <p>AppPermissionGuardian includes an optional local network auditing component that utilizes Android's <code>VpnService</code> (declared as <code>com.proteam.permissionguardian.ApgVpnService</code> with <code>BIND_VPN_SERVICE</code>).</p>
+        <p>This service operates strictly as a <strong>local on-device loopback tap (TUN interface)</strong>. Its sole purpose is to examine local packet header metadata (destination IP address, destination port, and protocol) to attribute network connections to specific installed applications in your on-device Privacy Timeline.</p>
+        <h3>Strict Technical Boundaries</h3>
+        <ul>
+            <li><strong>No Remote Proxying or Tunneling:</strong> The VPN does NOT route your internet traffic through external servers, cloud proxies, or third-party networks.</li>
+            <li><strong>No Payload Inspection or Decryption:</strong> The Application does NOT intercept, inspect, decrypt, or log the content of your communications or application data payloads.</li>
+            <li><strong>No Traffic Exfiltration:</strong> Network metadata is recorded exclusively in the local database (<code>apg_network_metadata.db</code>) on your device.</li>
+            <li><strong>Full User Control:</strong> The local VPN is engaged only with explicit user initiation and system consent, and can be stopped at any time via a persistent notification action or in-app controls.</li>
+        </ul>
+
+        <h2>4. Sensor Shield &amp; Foreground Service (Special Use)</h2>
+        <h3>Purpose &amp; Functionality</h3>
+        <p>The Application includes Sensor Shield, a feature powered by <code>SensorShieldService</code> utilizing <code>android.permission.FOREGROUND_SERVICE</code> and <code>android.permission.FOREGROUND_SERVICE_SPECIAL_USE</code> (Subtype: <em>"Framework sensor availability and integrity monitoring"</em>).</p>
+        <p>This service provides active, user-initiated monitoring of Android framework sensor availability signals (specifically CameraManager availability callbacks and AudioManager recording configuration changes) in real time.</p>
+        <h3>Transparency &amp; Boundaries</h3>
+        <ul>
+            <li><strong>No Audio or Video Recording:</strong> Sensor Shield does NOT record audio, take photos, or access raw hardware sensor feeds. It only observes system status callbacks.</li>
+            <li><strong>Continuous Visibility:</strong> A persistent notification is displayed throughout active monitoring to guarantee transparency.</li>
+            <li><strong>Immediate Termination:</strong> The notification provides an immediate control to stop the service at any moment.</li>
+        </ul>
+
+        <h2>5. Data Inventory: What is Processed and Stored</h2>
+        <p>All data processed by AppPermissionGuardian remains inside the secure, app-private sandbox (<code>/data/user/0/com.proteam.permissionguardian/</code>):</p>
+        <ul>
+            <li><strong>Application Metadata:</strong> Package names, version codes, and declared/granted Android permissions.</li>
+            <li><strong>Privacy Timeline Events:</strong> Local chronological timestamps of permission grants, revocations, and sensor availability events stored in <code>apg_privacy_timeline.db</code>.</li>
+            <li><strong>Local Network Metadata:</strong> Destination IP addresses and ports mapped to local packages stored in <code>apg_network_metadata.db</code>.</li>
+            <li><strong>User Preferences:</strong> Theme, language, notification preferences, and inspection sensitivities stored in SharedPreferences.</li>
+            <li><strong>Evidence Archives:</strong> Optional encrypted backup files (<code>.apgev</code>) exported via Android Storage Access Framework (SAF) using user-selected passwords and AES-256-GCM encryption.</li>
+        </ul>
+
+        <h2>6. Third-Party Libraries, Ads, and Data Sharing</h2>
+        <ul>
+            <li><strong>Zero Advertising SDKs:</strong> AppPermissionGuardian contains no advertising SDKs, ad trackers, or banner/interstitial networks.</li>
+            <li><strong>Zero Third-Party Analytics:</strong> No third-party behavioral analytics suites (such as Firebase Analytics, Facebook SDK, or commercial attribution trackers) are integrated.</li>
+            <li><strong>No Data Sharing or Sale:</strong> We never sell, lease, share, or disclose your data to third parties.</li>
+            <li><strong>Platform / System Communications:</strong> The Application interacts with official Android OS system APIs (PackageManager, AppOpsManager, CameraManager, AudioManager) and platform libraries. While standard Android framework and Play ecosystem tasks execute according to system requirements, APG operates zero remote endpoints for harvesting user data.</li>
+        </ul>
+
+        <h2>7. Data Retention &amp; User Deletion Rights</h2>
+        <ul>
+            <li><strong>In-App Deletion:</strong> Users have full control to purge their scan history, timeline events, and cached evidence at any time via Settings &gt; Local Data &gt; "Clear All Timeline Events" or "Restore Default Settings".</li>
+            <li><strong>Uninstall Purge:</strong> Standard uninstallation of AppPermissionGuardian completely and permanently erases all app-private databases, preferences, and cached records from the device.</li>
+            <li><strong>User Archives:</strong> Encrypted archives exported by the user to external storage locations (e.g., Documents or Downloads) remain under user custody until manually deleted by the user.</li>
+        </ul>
+
+        <h2>8. Current Release Scope: Free Basic Edition</h2>
+        <p>This release (version 1.0.1, build 101) is distributed as a <strong>Free Basic Edition</strong>. All in-app purchases, billing integrations, and commercial subscriptions are disabled in this release. Every user has full access to the advertised on-device permission review, privacy timeline, and sensor awareness features without fees, accounts, or subscriptions.</p>
+
+        <h2>9. Contact &amp; Publisher Information</h2>
+        <p>For questions or feedback regarding this Privacy Policy or AppPermissionGuardian's privacy practices, please contact the developer at:</p>
+        <div class="contact-notice">
+            Publisher: ProTeam<br>
+            Developer Contact: yproteamy@gmail.com
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ==================== ARABIC SECTION ==================== -->
+    <section id="arabic-version" class="ar-section">
+        <div class="lang-switch">
+            <span>اللغة: العربية (Arabic)</span>
+            <a href="#english-version">&uarr; Return to English Version (العودة للإنجليزية)</a>
+        </div>
+
+        <h1>سياسة الخصوصية</h1>
+
+        <div class="meta-box">
+            <p><strong>اسم التطبيق:</strong> حارس أذونات التطبيقات (AppPermissionGuardian - APG)</p>
+            <p><strong>معرّف الحزمة:</strong> com.proteam.permissionguardian</p>
+            <p><strong>المطور والناشر:</strong> ProTeam</p>
+            <p><strong>نطاق الإصدار:</strong> الإصدار الأساسي المجاني (الإصدار 1.0.1، البناء 101)</p>
+            <p><strong>الميزات التجارية والاشتراكات:</strong> معطلة بالكامل في هذا الإصدار</p>
+            <p><strong>تاريخ السريان:</strong> أكتوبر 2026</p>
+        </div>
+
+        <p>يلتزم تطبيق «حارس أذونات التطبيقات» (APG) بتقديم حوكمة خصوصية شفافة وموثوقة تعمل محلياً على جهازك دون أي تنازلات. توضح سياسة الخصوصية هذه بدقة كيفية عمل التطبيق، ونوعية البيانات المعالجة، ومكان تخزينها، والتزامنا الصارم بسياسات Google Play ومبادئ حماية المستخدم.</p>
+
+        <h2>1. هندسة الخصوصية المحلية (حقيقة الحالة)</h2>
+        <p>تم تصميم التطبيق وفق مبدأ <strong>«حقيقة الحالة» (State Truth)</strong>، حيث يعتمد على معالجة محلية كاملة: تتم كافة عمليات فحص الأذونات، وتصنيف درجات التعرض للخصوصية، والتحقق من سجلات التدقيق، وتوليد الجدول الزمني مباشرة داخل جهازك.</p>
+        <p><strong>نحن لا ندير أي سحابة تتبع خارجية، أو بنية تحتية لجمع البيانات، أو قواعد بيانات بعيدة لحفظ نتائج الفحص.</strong> يظل ملف خصوصية جهازك محفوظاً على جهازك حصرياً.</p>
+
+        <h2>2. فحص التطبيقات المثبتة وإذن QUERY_ALL_PACKAGES</h2>
+        <h3>الغرض والضرورة التقنية</h3>
+        <p>الوظيفة الأساسية لتطبيق APG هي فحص التطبيقات المثبتة على جهازك لمراجعة الأذونات الحساسة المصرح بها والممنوحة (بما يشمل الكاميرا، الميكروفون، الموقع الجغرافي الدقيق، جهات الاتصال، الرسائل القصيرة، سجل المكالمات، والتخزين)، واكتشاف التغييرات غير المصرح بها في الأذونات، وتقييم مستوى أمان الخصوصية العام.</p>
+        <p>ولتحقيق هذا الهدف الجوهري، يطلب التطبيق إذن <code>android.permission.QUERY_ALL_PACKAGES</code>.</p>
+        <h3>لماذا يتعذر الاكتفاء بنطاق رؤية أضيق؟</h3>
+        <p>بموجب قيود رؤية الحزم في نظام Android 11+ (مستوى API 30 فما فوق)، يتطلب حصر الحزم الإعلان المسبق عن أسمائها وقت بناء التطبيق. ونظراً لأن المستخدمين يثبتون آلاف التطبيقات المتنوعة، يستحيل التنبؤ بهذه الحزم مسبقاً. وبدون فحص شامل للحزم، يتعذر على أداة فحص الأذونات اكتشاف الثغرات وحماية خصوصية المستخدم.</p>
+        <h3>ضمانات الأمان</h3>
+        <p>تتم معالجة قائمة التطبيقات المثبتة حصرياً داخل ذاكرة الجهاز المحلية وقاعدة البيانات المشفرة على الهاتف، ولا يتم رفعها أو مشاركتها مطلقاً.</p>
+
+        <h2>3. تدقيق الشبكة المحلي وخدمة VpnService</h2>
+        <h3>الغرض وآلية العمل التقنية</h3>
+        <p>يتضمن التطبيق ميزة اختيارية لمراجعة حركة الشبكة المحلية باستخدام واجهة <code>VpnService</code> لنظام Android (والمصرح عنها كخدمة <code>com.proteam.permissionguardian.ApgVpnService</code> مع إذن <code>BIND_VPN_SERVICE</code>).</p>
+        <p>تعمل هذه الخدمة كـ <strong>منفذ محلي على الجهاز (Loopback TUN Interface)</strong>. والهدف الوحيد منها هو فحص بيانات ترويسة الحزم (عنوان IP الوجهة، رقم المنفذ، والبروتوكول) لربط اتصالات الشبكة بالتطبيقات المثبتة المسؤولة عنها وعرضها في سجل الخصوصية المحلي.</p>
+        <h3>الحدود التقنية الصارمة</h3>
+        <ul>
+            <li><strong>لا يوجد توجيه خارجي أو نفق VPN بعيد:</strong> لا يقوم التطبيق بتوجيه حركة الإنترنت إلى أي خوادم خارجية، أو وكلاء سحابيين، أو شبكات جهات خارجية.</li>
+            <li><strong>عدم فحص محتوى البيانات أو فك التشفير:</strong> لا يقوم التطبيق باعتراض أو قراءة أو فك تشفير محتوى الرسائل أو البيانات المنقولة.</li>
+            <li><strong>لا يتم تسريب البيانات:</strong> تُحفظ سجلات الترويسة حصرياً في قاعدة البيانات المحلية (<code>apg_network_metadata.db</code>) داخل الجهاز.</li>
+            <li><strong>تحكم كامل للمستخدم:</strong> يتم تشغيل الخدمة بموافقة صريحة من المستخدم وعبر حوار النظام، ويمكن إيقافها فوراً عبر الإشعار الدائم أو واجهة التطبيق.</li>
+        </ul>
+
+        <h2>4. درع الحساسات والخدمة الأمامية (الاستخدام الخاص specialUse)</h2>
+        <h3>الغرض والوظيفة الموجهة للمستخدم</h3>
+        <p>يحتوي التطبيق على ميزة «درع الحساسات» التي تعمل عبر <code>SensorShieldService</code> باستخدام أذونات الخدمة الأمامية <code>FOREGROUND_SERVICE</code> و <code>FOREGROUND_SERVICE_SPECIAL_USE</code> (النوع الفرعي: <em>"Framework sensor availability and integrity monitoring"</em>).</p>
+        <p>توفر هذه الخدمة مراقبة نشطة يبدؤها المستخدم لإشارات توفر الحساسات في نظام Android (تحديداً إشارات توفر الكاميرا عبر CameraManager وإعدادات تسجيل الصوت عبر AudioManager) في الوقت الفعلي.</p>
+        <h3>الشفافية والضوابط</h3>
+        <ul>
+            <li><strong>لا يتم تسجيل الصوت أو التقاط الصور:</strong> لا يقوم درع الحساسات بالتسجيل الصوتي أو التقاط الصور نهائياً، بل يراقب فقط إشارات حالة توفر الحساسات بالنظام.</li>
+            <li><strong>إشعار مرئي دائم:</strong> يظهر إشعار نظام مستمر طوال فترة المراقبة لضمان الشفافية التامة.</li>
+            <li><strong>إيقاف فوري:</strong> يتضمن الإشعار زراً مباشراً يتيح للمستخدم إيقاف الخدمة في أي لحظة.</li>
+        </ul>
+
+        <h2>5. جرد البيانات: ما تتم معالجته وتخزينه محلياً</h2>
+        <p>تُحفظ كافة البيانات المعالجة داخل بيئة التطبيق الخاصة المعزولة على الجهاز (<code>/data/user/0/com.proteam.permissionguardian/</code>):</p>
+        <ul>
+            <li><strong>بيانات التطبيقات:</strong> أسماء الحزم، أرقام الإصدارات، والأذونات الممنوحة والمصرح بها.</li>
+            <li><strong>أحداث سجل الخصوصية:</strong> سجل زمني محلي لتغييرات الأذونات وتوفر الحساسات في قاعدة <code>apg_privacy_timeline.db</code>.</li>
+            <li><strong>بيانات الشبكة المحلية:</strong> عناوين IP والمنافذ المرتبطة بالتطبيقات محلياً في <code>apg_network_metadata.db</code>.</li>
+            <li><strong>تفضيلات المستخدم:</strong> خيارات المظهر، اللغة، والإشعارات المخزنة في SharedPreferences.</li>
+            <li><strong>خزنة الأدلة:</strong> نسخ احتياطية مشفرة (.apgev) يختار المستخدم تصديرها باستخدام كلمة مرور وتشفير AES-256-GCM.</li>
+        </ul>
+
+        <h2>6. مكتبات الأطراف الخارجية، الإعلانات، ومشاركة البيانات</h2>
+        <ul>
+            <li><strong>خلو تام من الإعلانات:</strong> لا يحتوي التطبيق على أي مكتبات أو شبكات إعلانية.</li>
+            <li><strong>خلو تام من حزم التحليلات الخارجية:</strong> لا يتم استخدام أي حزم تحليلات تتبع سلوك المستخدم (مثل Firebase Analytics أو فيسبوك SDK).</li>
+            <li><strong>عدم بيع أو مشاركة البيانات:</strong> نحن لا نبيع، ولا نؤجر، ولا نشارك أي بيانات للمستخدمين مع أي طرف ثالث.</li>
+            <li><strong>الاتصالات بالنظام والمنصة:</strong> يتفاعل التطبيق مع واجهات نظام تشغيل Android الرسمية والخدمات التابعة له، مع تأكيد عدم امتلاك APG لأي خوادم خارجية لجمع بيانات الفحص.</li>
+        </ul>
+
+        <h2>7. حذف البيانات وحقوق المستخدم</h2>
+        <ul>
+            <li><strong>الحذف من داخل التطبيق:</strong> يستطيع المستخدم في أي وقت مسح سجل الفحص وأحداث الخصوصية عبر الإعدادات &gt; البيانات المحلية &gt; "مسح كافة أحداث الخصوصية" أو "استعادة الإعدادات الافتراضية".</li>
+            <li><strong>الحذف عند إزالة التطبيق:</strong> تؤدي إزالة التطبيق من نظام Android إلى مسح كافة قواعد البيانات والإعدادات المحلية بصورة تلقائية ونهائية من الجهاز.</li>
+            <li><strong>النسخ الاحتياطية المصدرة:</strong> تبقى النسخ المشفرة التي قام المستخدم بتصديرها لمجلدات المستندات أو التنزيلات تحت تصرفه حتى يقوم بحذفها يدوياً.</li>
+        </ul>
+
+        <h2>8. نطاق الإصدار الحالي: الإصدار الأساسي المجاني</h2>
+        <p>يتم توزيع هذا الإصدار (1.0.1، البناء 101) كـ <strong>إصدار أساسي مجاني (Free Basic Edition)</strong>. تم تعطيل كافة عمليات الشراء داخل التطبيق والاشتراكات التجارية في هذا الإصدار، ويتاح للمستخدمين الوصول الكامل لميزات الفحص وسجل الخصوصية ودرع الحساسات دون أي رسوم أو حسابات أو اشتراكات.</p>
+
+        <h2>9. معلومات التواصل والناشر</h2>
+        <p>لأي استفسارات بخصوص سياسة الخصوصية هذه أو ممارسات الخصوصية في التطبيق، يرجى التواصل مع المطور عبر:</p>
+        <div class="contact-notice">
+            الناشر: ProTeam<br>
+            البريد الإلكتروني للتواصل: yproteamy@gmail.com
+        </div>
+    </section>
+
+</div>
+
+</body>
+</html>
