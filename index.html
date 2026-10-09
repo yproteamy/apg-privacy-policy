@@ -182,7 +182,7 @@
 
         <h2>2. Installed Application Inventory &amp; QUERY_ALL_PACKAGES</h2>
         <h3>Purpose &amp; Necessity</h3>
-        <p>The core function of AppPermissionGuardian is to inspect the applications installed on your device to audit declared and granted sensitive permissions (including Camera, Microphone, Precise Location, Contacts, SMS, Call Logs, and Storage), detect unauthorized permission changes ("drift"), and calculate your overall privacy posture.</p>
+        <p>The core function of AppPermissionGuardian is to inspect the applications installed on your device to audit declared and granted sensitive permissions (including Camera, Microphone, Precise Location, Contacts, SMS, Call Logs, and Storage), detect permission changes and privacy drift, and calculate your overall privacy posture.</p>
         <p>To fulfill this primary purpose, the Application declares the <code>android.permission.QUERY_ALL_PACKAGES</code> permission.</p>
         <h3>Why Broad Visibility is Required</h3>
         <p>Under Android 11+ (API level 30+) visibility restrictions, targeted package filtering requires compile-time pre-declaration of package names. Because device owners install thousands of distinct applications from diverse sources, compile-time declarations cannot discover arbitrary user-installed apps. Without comprehensive package inventory visibility, an on-device permission auditor cannot discover security exposures or protect user privacy.</p>
@@ -346,6 +346,7 @@
 
 </body>
 </html>
+
 
 
 
